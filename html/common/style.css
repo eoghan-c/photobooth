@@ -1,0 +1,18 @@
+
+body {
+	width: 80%;
+	text-align: center;
+	margin: 50px auto;
+}
+
+main {
+	border: 1px solid gray;
+	background-color: #f8f8f8;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.multi-image {
+	margin: 10px;
+	display: inline-block;
+}

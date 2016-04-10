@@ -1,0 +1,7 @@
+CosignProtected On
+AuthType Cosign
+
+Options -Indexes
+
+# Error pages
+ErrorDocument 404 /redirect.html
