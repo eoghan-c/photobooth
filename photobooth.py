@@ -25,7 +25,7 @@ try:
     menus.add_main_menu_item( OfficialPhoto(photobooth) )
     menus.add_main_menu_item( AccompaniedPhoto(photobooth) )
     menus.add_main_menu_item( AnimatedPhoto(photobooth) )
-    #menus.add_main_menu_item( ContinuousPhotos(photobooth) )
+    menus.add_main_menu_item( ContinuousPhotos(photobooth) )
     
     while True:
         menus.display_main_menu()
