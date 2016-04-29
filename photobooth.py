@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # original scripts created by chris@drumminhands.com (http://www.drumminhands.com/2014/06/15/raspberry-pi-photo-booth/)
 # adapted and expanded by eoghan_clarkson@yahoo.com
-# See details at http://www.eoghan.me.uk/....
+# See details at http://eoghan.me.uk/notes/2016/03/28/photo-booth/
 
 import os
 import time
