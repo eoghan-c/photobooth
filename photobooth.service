@@ -1,0 +1,12 @@
+[Unit]
+Description=A Photo Booth. Instructions at http://eoghan.me.uk/notes/2016/03/28/photo-booth/
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python "~/Documents/Python Projects/blood_pressure/main.py"
+Restart=on-abort
+User=root
+
+[Install]
+WantedBy=multi-user.target
